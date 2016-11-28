@@ -81,6 +81,8 @@
 		<mkdir dir="${run.rsc.data}" />
 		<mkdir dir="${run.rsc.web}" />
 		<mkdir dir="${run.rsc.web}/css" />
+	<!-- Copia las propiedades de la aplicaciÃ³n para ejecuciÃ³n -->
+		<copy file="${src.main.dir}/config.properties" todir="${run.dir}" />
 		<mkdir dir="${run.rsc.web}/font" />
 		<mkdir dir="${run.rsc.web}/html" />
 		<mkdir dir="${run.rsc.web}/js" />
@@ -105,7 +107,8 @@
 		</copy>
 		<!-- Copia los LEEME.txt y licencia de la aplicación -->
 		<copy file="${rsc.main.dir}/LEEME.TXT" todir="${run.dir}" />
-
+		<!-- Copia las propiedades de la aplicaciÃ³n para ejecuciÃ³n -->
+		<copy file="${src.main.dir}/config.properties" todir="${run.dir}" />
 		<!-- Copia los archivos de recursos web de la aplicación -->
 		<copy todir="${run.rsc.web}/css">
 			<fileset dir="${rsc.main.web}/css" />
