@@ -1,12 +1,6 @@
 Componentes del grupo:
-<<<<<<< HEAD
-Miguel Ángel León Bardavío
 
-Asignatura: 
-Gestión de proyectos Ágil
-=======
 Clara Palacios Rodrigo
 
 Asignatura: 
 Gestión de Proyectos Ágil
->>>>>>> e59bf8da4a2b48b1f5d7257ffa85b3917331de29
